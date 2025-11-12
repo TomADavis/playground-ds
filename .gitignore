@@ -1,0 +1,26 @@
+﻿# Bytecode / env / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+
+# Data & outputs
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+models/
+outputs/
